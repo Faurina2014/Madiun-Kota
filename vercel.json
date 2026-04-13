@@ -8,6 +8,10 @@
           "value": "max-age=63072000; includeSubDomains; preload"
         },
         {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(self), camera=(self), microphone=(self), usb=(self), fullscreen=(self)"
+        },
+        {
           "key": "X-Frame-Options",
           "value": "DENY"
         },
